@@ -2,6 +2,7 @@ import 'package:base_getx/base/base_viewmodel.dart';
 
 class HomeViewModel extends BaseViewModel {
   var count = 0;
+ @override
   onInit() {
     // fetchApi();
     print('object');
